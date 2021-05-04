@@ -1,0 +1,15 @@
+#Config file, comment with #
+#URL you want to load (*required)
+URL = https://topvl.net
+#Number of the hits (*required), default: 100
+NumHits = 2 
+#Time Wait between 2 load times, default: 15 seconds
+#TimeWait = 15
+#Proxy Type (*optional) (with value: 1 - HTTP Proxy, 2 - HTTPS Proxy, 3 - Both HTTP/HTTPS Proxy, 0 - No Proxy)
+#ProxyType = 3
+#Proxy (*optional) (with value: [PROXY_HOST:PROXY_PORT] - example: 127.0.0.1:8080)
+#Proxy = 127.0.0.1:8080
+#Firefox Path, default: C:\Program Files\Mozilla Firefox\firefox.exe, change it if not equal.
+FIREFOX_PATH = C:\Program Files\Mozilla Firefox\firefox.exe
+#geckodriver Path, default: same directory with this file, change it if not equal.
+geckodriver_path = geckodriver.exe
